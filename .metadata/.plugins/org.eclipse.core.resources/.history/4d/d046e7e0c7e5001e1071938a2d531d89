@@ -1,0 +1,3 @@
+spring.application.name=jhs_erp
+
+spring.datasource.url=jdbc:mysql://localhost:3306/social-media-database

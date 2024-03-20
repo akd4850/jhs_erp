@@ -1,0 +1,11 @@
+package com.jhs.erp.dto;
+
+import lombok.Builder;
+import lombok.Data;
+
+@Builder
+@Data
+public class JhsTestDto {
+	
+	private String 
+}

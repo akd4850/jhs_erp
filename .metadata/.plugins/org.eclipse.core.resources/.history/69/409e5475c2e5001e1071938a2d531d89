@@ -1,0 +1,4 @@
+package com.jhs.erp.dto;
+
+public class JhsTestDto {
+}

@@ -1,0 +1,21 @@
+package com.jhs.erp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+
+// 스프링 시큐리티 임시 비활성화
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
+//@SpringBootApplication
+public class JhsErpApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(JhsErpApplication.class, args);
+	}
+}
+
+/*
+ * 1. 대략적으로 DB 설계
+ * 2. 기본 구조 설정
+ * 3. 안주 사갈꺼 있나
+ */
